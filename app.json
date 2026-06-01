@@ -44,7 +44,7 @@
           "apiKey": "AIzaSyAa1lBSroSXA-Om4mio84-SWAcmzQgYv8w"
         }
       },
-      "versionCode": 3
+      "versionCode": 4
     },
     "plugins": [
       "expo-router",
@@ -57,7 +57,7 @@
         }
       ]
     ],
-    "newArchEnabled": true,
+    "newArchEnabled": false,
     "extra": {
       "usesCleartextTraffic": true,
       "router": {
