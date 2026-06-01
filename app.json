@@ -35,13 +35,16 @@
       "usesCleartextTraffic": true,
       "permissions": [
         "ACCESS_FINE_LOCATION",
-        "ACCESS_COARSE_LOCATION"
+        "ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION"
       ],
       "config": {
         "googleMaps": {
           "apiKey": "AIzaSyAa1lBSroSXA-Om4mio84-SWAcmzQgYv8w"
         }
-      }
+      },
+      "versionCode": 3
     },
     "plugins": [
       "expo-router",
@@ -56,10 +59,14 @@
     ],
     "newArchEnabled": true,
     "extra": {
-      "eas": {
-        "projectId": "sallycards-quiestce"
+      "usesCleartextTraffic": true,
+      "router": {
+        "origin": false
       },
-      "usesCleartextTraffic": true
-    }
+      "eas": {
+        "projectId": "158161ec-7bb6-4a9d-899b-7752e3fcd919"
+      }
+    },
+    "owner": "idriss.kriouile"
   }
 }
