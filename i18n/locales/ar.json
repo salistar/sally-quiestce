@@ -218,5 +218,11 @@
       "again": "إعادة",
       "continue": "خمن الآن"
     }
-  }
+  },
+  "diffEasy": "سهل",
+  "diffMedium": "متوسط",
+  "diffHard": "صعب",
+  "drawsShort": "ت",
+  "yourMove": "دورك",
+  "wallet": "المحفظة"
 }

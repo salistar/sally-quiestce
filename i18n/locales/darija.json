@@ -218,5 +218,11 @@
       "again": "عاود",
       "continue": "خمن دابا"
     }
-  }
+  },
+  "diffEasy": "ساهل",
+  "diffMedium": "متوسط",
+  "diffHard": "صعيب",
+  "drawsShort": "ت",
+  "yourMove": "دورك",
+  "wallet": "البورس"
 }
