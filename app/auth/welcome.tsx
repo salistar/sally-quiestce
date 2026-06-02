@@ -41,7 +41,7 @@ const CARDS_PER_APP: Record<string, any> = {
   Tarot:           require('../../assets/cards/12C.png'),
   Scopa:           require('../../assets/cards/7O.png'),
   Okey:            require('../../assets/cards/11B.png'),
-  'Qui Est-Ce ?':  require('../../assets/cards/12O.png'),
+  'Qui Est-Ce ?':  require('../../assets/character-hero.png'),
   Poker:           require('../../assets/cards/1E.png'),
   Concentration:   require('../../assets/cards/10E.png'),
   'Kant Copy':     require('../../assets/cards/3O.png'),

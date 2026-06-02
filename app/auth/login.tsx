@@ -29,7 +29,7 @@ const APP_COLOR = APP_CONFIG.primary;
 const APP_NAME = APP_CONFIG.name;
 
 // eslint-disable-next-line @typescript-eslint/no-var-requires
-const cardImage = require('../../assets/cards/11E.png');
+const cardImage = require('../../assets/character-hero.png');
 
 export default function LoginScreen() {
   const { t } = useTranslation();

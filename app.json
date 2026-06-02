@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Qui Est-Ce?",
+    "name": "Sally Qui Est-Ce?",
     "slug": "quiestce",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -8,11 +8,11 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#0A2A3A",
+      "backgroundColor": "#4338CA",
       "dark": {
         "image": "./assets/splash.png",
         "resizeMode": "contain",
-        "backgroundColor": "#0A2A3A"
+        "backgroundColor": "#4338CA"
       }
     },
     "scheme": "sallycards",
@@ -30,7 +30,7 @@
       "package": "com.sallycards.quiestce",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#0D9488"
+        "backgroundColor": "#6366F1"
       },
       "usesCleartextTraffic": true,
       "permissions": [

@@ -5,8 +5,8 @@
  */
 export const APP_CONFIG = {
   name: "Qui Est-Ce ?",
-  primary: "#F97316",
-  secondary: "#9A3412",
+  primary: "#6366F1",
+  secondary: "#4338CA",
   splash: {
     glow: "rgba(154,52,18,0.6)",
     sallyGlow: "rgba(249,115,22,0.8)",
