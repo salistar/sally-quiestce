@@ -23,10 +23,11 @@ import { APP_CONFIG } from '../config/app.config';
 const { width, height } = Dimensions.get('window');
 const log = logger.scoped('AnimatedSplash');
 
-let CARD_LEFT: any, CARD_CENTER: any, CARD_RIGHT: any, HERO: any;
-try { CARD_LEFT   = require('../../assets/cards/1O.png'); } catch {}
-try { CARD_CENTER = require('../../assets/cards/12O.png'); } catch {}
-try { CARD_RIGHT  = require('../../assets/cards/11E.png'); } catch {}
+// Quiestce variant — CHARACTERS, NO CARDS. Center is the character-hero PNG.
+let CARD_CENTER: any, HERO: any;
+const CARD_LEFT: any = undefined;
+const CARD_RIGHT: any = undefined;
+try { CARD_CENTER = require('../../assets/character-hero.png'); } catch {}
 try { HERO        = require('../../assets/hero/splash-cards.jpg'); } catch {}
 
 interface Props {

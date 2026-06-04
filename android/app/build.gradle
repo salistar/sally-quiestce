@@ -103,9 +103,9 @@ android {
         }
         release {
             storeFile file('sallycards-quiestce.jks')
-            storePassword 'SallyCards2026'
+            storePassword 'SallyCards2027'
             keyAlias 'sallycards-quiestce'
-            keyPassword 'SallyCards2026'
+            keyPassword 'SallyCards2027'
         }
     }
     buildTypes {
